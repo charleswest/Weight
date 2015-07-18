@@ -14,4 +14,7 @@ around 5 sec/per picture.
 
 the weight.py script analyses a single picture.
 
+All of the scripts can be run independently using intermediate files that are output from a prior stage.  Running testloop produces a TRB file which contains a list of all images that failed the test.   TRB is in a format suitable
+for reinput to testloop.
+
 I have not included my daily script which uses the scale object in weight to update statistics that I keep in R.
