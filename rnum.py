@@ -2,7 +2,7 @@
 from SimpleCV import Image, Color, Display
 import sys
 global db,Gd
-Rtype = 'fat'
+Rtype = 'h2o'
 Gd  = Display((1040,410)) 
 iHunt = []
 db = False
@@ -24,8 +24,8 @@ def hunt2(imgx,typ,hcnt):
             }
     exlist = {
             'wt' :  [12, 14,     ],
-            'h2o' : [2,  8,   ],
-            'fat' : [12,  10    ]
+            'h2o' : [2,  8, 12  ],
+            'fat' : [12,  10   ]
               }                             #  200 5 600  3000   works h20
     txlist = {
             'wt' :  [ 160, 140   ],
