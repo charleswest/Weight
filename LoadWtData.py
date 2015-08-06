@@ -39,7 +39,7 @@ while (rawchar == 'c'):
                            # sx is a tuple of w, fat, water
         print 'Date and Time' , t, 'weight', sx.nwt
     #   note the raw string below 
-        f  = open( r'C:\Users\charles\Data\Prod\wtdata\foo.r', 'a')
+        f  = open( r'C:\Users\charles\Data\Prod\wtdata\aaScale.r', 'a')
         print  "updd(", t , sx.nwt , ")"
         st = str(t)
         sw = str(sx.nwt) +', '+ str(sx.nfat )+ ', ' + str(sx.nh2o)
